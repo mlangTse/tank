@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class start_game : MonoBehaviour {
@@ -18,4 +19,7 @@ public class start_game : MonoBehaviour {
 		m_GUIText.color = Color.black;
 	}
 
+	void OnMouseDown() {
+		SceneManager.LoadScene ("01");
+	}
 }
