@@ -45,14 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ball_move.cs" />
-     <Compile Include="Assets\Scripts\first.cs" />
      <Compile Include="Assets\Scripts\front_page\start_game.cs" />
-     <Compile Include="Assets\Scripts\input_test.cs" />
-     <Compile Include="Assets\Scripts\player1.cs" />
-     <Compile Include="Assets\Scripts\player2.cs" />
-     <Compile Include="Assets\Scripts\rigidbodyMove.cs" />
-     <Compile Include="Assets\Scripts\shooting.cs" />
+     <Compile Include="Assets\Scripts\game\ball_move.cs" />
+     <Compile Include="Assets\Scripts\game\first.cs" />
+     <Compile Include="Assets\Scripts\game\input_test.cs" />
+     <Compile Include="Assets\Scripts\game\player1.cs" />
+     <Compile Include="Assets\Scripts\game\player2.cs" />
+     <Compile Include="Assets\Scripts\game\rigidbodyMove.cs" />
+     <Compile Include="Assets\Scripts\game\shooting.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
